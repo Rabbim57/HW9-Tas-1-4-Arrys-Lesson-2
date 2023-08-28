@@ -36,8 +36,8 @@ public class Main {
             if (salary < min) {
                 min = salary;
             }
-            System.out.println("Минимальная сумма трат за день составила " + min + " Максиальная сумма трат за день составила " + max + " рублей ");
         }
+            System.out.println("Минимальная сумма трат за день составила " + min + " рублей. " + " Максиальная сумма трат за день составила " + max + " рублей ");
     }public static void task3 () {
         int[] ints = generateRandomArray();
         int result = 0;
